@@ -18,6 +18,6 @@ public class WordBreak {
                 }
             }
         }
-        return dp[0];
+        return dp[0]; //test
     }
 }
