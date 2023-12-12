@@ -1,4 +1,4 @@
-package leetcode.dynamic_programming;
+package leetcode.dynamic_programming.two_dimentional;
 
 public class LongestCommonSubSequence {
     int longestCommonSubsequence(String text1, String text2) {
