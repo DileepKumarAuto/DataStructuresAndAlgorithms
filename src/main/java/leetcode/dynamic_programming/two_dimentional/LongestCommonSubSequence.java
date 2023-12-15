@@ -36,5 +36,8 @@ public class LongestCommonSubSequence {
         return dp[text1.length()][text2.length()];
     }
 
-
+    /**
+     * Time Complexity: O(m * n), where m and n are the lengths of the input strings text1 and text2.
+     * Space Complexity: O(m * n), using a 2D array of size (m+1) x (n+1) for dynamic
+     */
 }
