@@ -25,6 +25,6 @@ The repository is organized by topics, and each topic includes a set of problems
 
 - [LeetCode](https://leetcode.com/)
 
-- [Nihil Lohia](https://www.youtube.com/channel/UCT-S2ngqEBoYCM5UKuNeELg)
+- [Nikhil Lohia](https://www.youtube.com/channel/UCT-S2ngqEBoYCM5UKuNeELg)
 
 Happy Coding!
