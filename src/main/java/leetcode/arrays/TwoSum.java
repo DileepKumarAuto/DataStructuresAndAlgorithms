@@ -4,6 +4,15 @@ import java.util.HashMap;
 
 public class TwoSum {
 
+    /**
+     *  Iterate through the array,
+     *  calculate the difference between the target value and the current element,
+     *  and check if this difference is present in the HashMap.
+     *
+     *  If found, it returns the indices of the two elements.
+     *  If not found, it adds the current element and its index to the HashMap.
+     *  If no solution is found after iterating through the array, it returns an empty array.
+     */
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer, Integer> prevMap = new HashMap<>();
 
