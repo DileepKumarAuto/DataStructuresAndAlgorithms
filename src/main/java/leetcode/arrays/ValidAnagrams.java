@@ -26,5 +26,9 @@ public class ValidAnagrams {
         return true;
     }
 
+    /**
+     * Time Complexity: O(N) where n is the length of the input strings s and t.
+     * Space Complexity: O(1) as we are using just an array with fixed size.
+     */
 
 }
