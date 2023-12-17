@@ -1,6 +1,16 @@
 package leetcode.arrays;
 
 public class ValidAnagrams {
+
+    /**
+     * Check if the lengths of the two strings are equal. If not, return false.
+     * Initialize an array store of size 26 to keep track of the frequency of each letter.
+     * Iterate through each character in both strings.
+     * For each character, increment the count in store for the first string
+     * and decrement it for the second string.
+     * After the iteration, check if all counts in store are zero.
+     * If yes, return true (strings are anagrams); otherwise, return false.
+     */
     public boolean isAnagram(String s, String t) {
         if (s.length() != t.length()) return false;
 
@@ -15,4 +25,6 @@ public class ValidAnagrams {
 
         return true;
     }
+
+
 }
