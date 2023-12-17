@@ -34,4 +34,9 @@ public class PalindromicSubstrings {
         }
         return result;
     }
+
+    /**
+     * Time Complexity:  O(n^2), where n is the length of the input string s.
+     * Space Complexity :  O(1)
+     */
 }
