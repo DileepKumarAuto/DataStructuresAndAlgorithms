@@ -20,4 +20,10 @@ public class TwoSum {
 
         return new int[] {};
     }
+
+    /**
+     * Time Complexity: O(N) where N is the length of input array
+     * Space Complexity: O(N) where N is the length of input array
+     */
+
 }
