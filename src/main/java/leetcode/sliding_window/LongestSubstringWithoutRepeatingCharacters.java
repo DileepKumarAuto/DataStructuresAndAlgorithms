@@ -47,4 +47,10 @@ public class LongestSubstringWithoutRepeatingCharacters {
         }
         return largestlength;
     }
+
+    /**
+     * Time complexity: O(n), where n is the length of the input string s.
+     * Space complexity: O(min(m, n)), where n is the length of the input string s,
+     *                  and m is the size of the character set
+     */
 }
