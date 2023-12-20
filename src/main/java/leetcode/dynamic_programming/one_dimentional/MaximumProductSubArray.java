@@ -44,4 +44,9 @@ public class MaximumProductSubArray {
 
         return ans;
     }
+
+    /**
+     * Time complexity : O(N) where n is the length of the input array
+     * Space complexity :  O(N) where n is the length of the input array
+     */
 }
