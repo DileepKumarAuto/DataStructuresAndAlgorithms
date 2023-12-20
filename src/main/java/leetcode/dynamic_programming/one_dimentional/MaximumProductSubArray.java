@@ -2,6 +2,24 @@ package leetcode.dynamic_programming.one_dimentional;
 
 public class MaximumProductSubArray {
 
+    /**
+     * Initialize variables leftProduct, rightProduct, and ans.
+     * leftProduct and rightProduct are used to keep track of the product of elements
+     * encountered so far from the left and right sides, respectively.
+     * Initialize ans with the first element of the array (nums[0]).
+     *
+     * Use a for loop to iterate through the elements of the array.
+     *
+     * If either leftProduct or rightProduct becomes zero, update it to 1.
+     * This step is crucial for handling zero values in the array because any subarray
+     * containing zero will have a product of zero.
+     * Calculate the prefix product by multiplying the current element with leftProduct.
+     * Calculate the suffix product by multiplying the corresponding element from the end of the array with rightProduct.
+     * Update the ans with the maximum value among ans, leftProduct, and rightProduct.
+     *
+     * After the loop completes, ans contains the maximum product of a subarray in the array,
+     * and the function returns this value.
+     */
     int maxProduct(int[] nums) {
 
         int n = nums.length;
