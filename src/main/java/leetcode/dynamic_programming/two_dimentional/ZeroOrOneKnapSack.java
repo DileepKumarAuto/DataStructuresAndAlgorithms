@@ -46,5 +46,10 @@ public class ZeroOrOneKnapSack {
         }
         return dp[n][capacity];
     }
+
+    /**
+     * Time Complexity: O(n * capacity), where n is the number of items and capacity is the maximum knapsack capacity
+     * Space Complexity: O(n * capacity) due to the 2D array dp that is used to store the solutions to sub problems.
+     */
 }
 
