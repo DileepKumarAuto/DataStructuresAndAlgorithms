@@ -40,4 +40,10 @@ public class GroupAnagrams {
 
         return new ArrayList<>(map.values());
     }
+
+    /**
+     *
+     Time complexity: O(N * K * log(K)), where N is the number of strings and K is the maximum length of any string.
+     Space complexity: O(N * K), where N is the number of strings and K is the maximum length of any string
+     */
 }
