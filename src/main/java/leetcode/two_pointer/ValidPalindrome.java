@@ -27,7 +27,7 @@ public class ValidPalindrome {
 
             i++;
             j--;
-        }
+        } // test
 
         return true;
     }
