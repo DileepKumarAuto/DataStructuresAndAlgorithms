@@ -30,4 +30,9 @@ public class ValidParentheses {
         }
         return stack.isEmpty();
     }
+
+    /**
+     * Time Complexity: O(n) - Linear time complexity, where n is the length of the input string.     *
+     * Space Complexity: O(n) - Linear space complexity, as the space used is proportional to the length of the input.
+     */
 }
