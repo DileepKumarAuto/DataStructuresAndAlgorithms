@@ -32,7 +32,7 @@ public class ContainerWithMostWater {
             }
         }
         return res;
-    }//test
+    }
 
     /**
      * Time Complexity : (n) where n is the number of elements in the array.
