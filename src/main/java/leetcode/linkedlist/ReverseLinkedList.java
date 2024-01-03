@@ -26,4 +26,9 @@ public class ReverseLinkedList {
         }
         return previous;
     }
+
+    /**
+     * Time Complexity: O(n) - where n is the number of nodes in the linked list.
+     * Space Complexity: O(1) - constant space is used regardless of the input size.
+     * */
 }
