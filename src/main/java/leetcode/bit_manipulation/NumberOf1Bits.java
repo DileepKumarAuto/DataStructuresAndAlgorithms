@@ -1,6 +1,6 @@
 package leetcode.bit_manipulation;
 
-public class CountingBits {
+public class NumberOf1Bits {
 
     /**
      * Use a bitmask (mask) with a 1 in the least significant bit.
