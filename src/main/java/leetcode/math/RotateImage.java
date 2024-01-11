@@ -2,6 +2,16 @@ package leetcode.math;
 
 public class RotateImage {
 
+    /**
+     * Approach:
+     * Initialize pointers 'l' (left) and 'r' (right) to represent the boundaries of the matrix.
+     * Iterate through the matrix layers using a while loop until 'l' is less than 'r'.
+     * For each layer, use a for loop to traverse elements within the layer.
+     * Swap elements in a cyclic manner, rotating the four corners of the current layer.
+     * Continue the rotation process until the entire matrix is rotated 90 degrees clockwise.
+     * Update pointers 'l' and 'r' to move towards the center of the matrix in each iteration.
+     */
+
     public void rotate(int[][] matrix) {
         int l = 0;
         int r = matrix.length - 1;
@@ -33,4 +43,9 @@ public class RotateImage {
             l += 1;
         }
     }
+
+    /**
+     * Time Complexity: O(N^2) : Algorithm involves nested loops, iterating through each element in the matrix once.
+     * Space Complexity: O(1) : Constant space is used regardless of the input size, as the rotation is performed in-place.
+     */
 }
