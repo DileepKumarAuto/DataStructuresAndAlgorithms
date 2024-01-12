@@ -5,6 +5,22 @@ import java.util.List;
 
 public class SpiralMatrix {
 
+    /**
+     * Initialize variables rb (row beginning), re (row end), cb (column beginning), and ce (column end) to
+     * represent boundaries.
+     * Use a while loop to traverse the matrix in a spiral order until the boundaries meet.
+     * For each iteration:
+     *   Traverse the top row from left to right and add elements to the list.
+     *   Increment rb to move to the next row.
+     *   Traverse the right column from top to bottom and add elements to the list.
+     *   Decrement ce to move to the next column.
+     *   Traverse the bottom row from right to left if rb is still less than or equal to re.
+     *   Decrement re to move to the next row.
+     *   Traverse the left column from bottom to top if cb is still less than or equal to ce.
+     *   Increment cb to move to the next column.
+     * Return the list containing elements in a spiral order.
+     */
+
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> list = new ArrayList<>();
         int rb = 0;
@@ -41,4 +57,7 @@ public class SpiralMatrix {
         return list;
     }
 
+    /** Time Complexity: O(m * n) where m is the number of rows and n is the number of columns in the matrix.
+     * Space Complexity: O(1) Constant space is used as the result list is not considered in the space complexity.
+     */
 }
