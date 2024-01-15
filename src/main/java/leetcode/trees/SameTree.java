@@ -18,7 +18,22 @@ public class SameTree {
      * }
      */
 
-
+    /**
+     * Base Cases:
+     * If both nodes (p and q) are null, they are the same (return true).
+     * If one node is null and the other is not, they are different (return false).
+     *
+     * Node Value Comparison:
+     * Check if the values of the current nodes (p.val and q.val) are equal.
+     * If not, the trees are different (return false).
+     *
+     * Recursive Comparison:
+     * Recursively compare the left subtrees (dfs(p.left, q.left)) and the right subtrees (dfs(p.right, q.right)).
+     *
+     * Result:
+     * Return true only if both left and right subtrees are the same.
+     *
+     */
     public boolean isSameTree(TreeNode p, TreeNode q) {
         return dfs(p, q);
     }
@@ -40,5 +55,8 @@ public class SameTree {
         return left && right;
     }
 
-
+    /**
+     * Time Complexity: O(N) where N is the number of nodes in the larger tree.
+     * Space Complexity: O(N) where N is the maximum depth of the larger tree (recursion stack space).
+     */
 }
